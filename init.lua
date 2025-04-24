@@ -22,6 +22,9 @@ vim.opt.clipboard = "unnamedplus" -- use system clipboard as default register
 vim.api.nvim_set_keymap('v', 'y', '"+y', { noremap = true, silent = true })  -- Copy
 vim.api.nvim_set_keymap('n', 'p', '"+p', { noremap = true, silent = true })  -- Paste
 
+vim.api.nvim_set_keymap('n', 'd', '"_d', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', 'd', '"_d', { noremap = true, silent = true })
+
 vim.lsp.enable('luals')
 vim.lsp.enable("typescript")
 vim.lsp.enable("gopls")
