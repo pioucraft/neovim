@@ -24,8 +24,10 @@ vim.api.nvim_set_keymap('n', 'p', '"+p', { noremap = true, silent = true })  -- 
 
 vim.lsp.enable('luals')
 vim.lsp.enable("typescript")
-
+vim.lsp.enable("gopls")
+vim.lsp.enable("html")
 
 
 require("nathan.after.plugins.autoclose")
 require("nathan.after.plugins.telescope")
+require("nathan.after.plugins.treesitter")
