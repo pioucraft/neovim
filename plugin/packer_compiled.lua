@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/telescope.nvim",

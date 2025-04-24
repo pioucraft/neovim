@@ -27,6 +27,8 @@ vim.lsp.enable("typescript")
 vim.lsp.enable("gopls")
 vim.lsp.enable("html")
 
+vim.g.sonokai_style = 'andromeda'
+vim.cmd("colorscheme sonokai")
 
 require("nathan.after.plugins.autoclose")
 require("nathan.after.plugins.telescope")
