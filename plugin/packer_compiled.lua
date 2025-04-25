@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/Users/nathangasser/.local/share/nvim/site/pack/packer/start/nvim-treesitter",

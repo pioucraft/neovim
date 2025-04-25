@@ -16,4 +16,9 @@ return require('packer').startup(function(use)
         run = ':TSUpdate'
     }
     use 'sainnhe/sonokai'
+    use {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    }
 end)
