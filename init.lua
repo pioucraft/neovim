@@ -19,7 +19,7 @@ vim.wo.relativenumber = true  -- Show relative line numbers
 -- Set leader key and key mappings
 vim.g.mapleader = " " -- Set the leader key to space
 vim.keymap.set("n", "<leader>ee", vim.cmd.Ex) -- Open file explorer with <leader>ee
-vim.keymap.set("n", "<leader>e", vim.diagnostic.goto_next) -- Go to the next diagnostic with <leader>e
+vim.keymap.set("n", "<leader>d", vim.diagnostic.goto_next) -- Go to the next diagnostic with <leader>e
 
 -- Use system clipboard for copy-paste
 vim.opt.clipboard = "unnamedplus" -- Use system clipboard as the default register
