@@ -17,6 +17,7 @@ vim.wo.relativenumber = true        -- Show relative line numbers
 
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>ee", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", vim.diagnostic.goto_next)
 
 vim.opt.clipboard = "unnamedplus" -- use system clipboard as default register
 vim.api.nvim_set_keymap('v', 'y', '"+y', { noremap = true, silent = true })  -- Copy
